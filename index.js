@@ -51,7 +51,7 @@ $(document).ready(function() {
         });
     });
     $('.navbar ul .close').click(function() {
-        $('.navbar').animate({ opacity: 0 }, 1000, function() {
+        $('.navbar').animate({ opacity: 0 }, 400, function() {
             $('#navbarNavDropdown').removeClass("show");
             $('.navbar').css({ opacity: 1 });
             $('.navbar-toggler').css({

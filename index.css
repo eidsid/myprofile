@@ -414,7 +414,7 @@ body {
     background: linear-gradient(rgb(35, 124, 156), black);
     margin-top: 10vmin;
     text-align: center;
-    height: 100vh;
+    height: 120vh;
     font-size: 1.5rem;
     color: white;
     padding: 15vmin 0vmin;
@@ -444,12 +444,15 @@ body {
 @media only screen and (max-width:500px) {
     .projects .project-box {
         width: 100vmin;
-        height: 360px;
+        height: 340px;
         position: relative;
         overflow: hidden;
-        transform: scale(0.7);
+        transform: scale(0.5);
         transition: 1s;
         overflow: hidden;
+    }
+    .projects .project-box:hover {
+        transform: scale(0.7);
     }
 }
 
@@ -482,7 +485,7 @@ body {
 
 .projects .project-box:hover h5 {
     position: absolute;
-    left: 15%;
+    left: 33%;
     transform: translateY(-600%);
     background-color: rgba(0, 0, 0, 0.219);
     opacity: 1;
