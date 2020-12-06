@@ -414,7 +414,7 @@ body {
     background: linear-gradient(rgb(35, 124, 156), black);
     margin-top: 10vmin;
     text-align: center;
-    height: 120vh;
+    height: 110%;
     font-size: 1.5rem;
     color: white;
     padding: 15vmin 0vmin;
@@ -427,6 +427,7 @@ body {
 }
 
 .projects .project-box {
+    margin-top: -10%;
     width: 360px;
     height: 360px;
     position: relative;
@@ -437,12 +438,14 @@ body {
 }
 
 .projects .project-box:hover {
-    transform: scale(1);
+    z-index: 10;
+    transform: scale(0.9);
     box-shadow: 0px 0px 70px rgb(36, 186, 237);
 }
 
 @media only screen and (max-width:500px) {
     .projects .project-box {
+        margin-top: -10%;
         width: 100vmin;
         height: 340px;
         position: relative;
@@ -457,7 +460,7 @@ body {
 }
 
 .projects .project-box h3 {
-    padding: 10x;
+    padding: 10px;
     font-size: 25px;
     position: absolute;
     top: 0%;
@@ -516,6 +519,7 @@ footer {
 }
 
 .footer-copyright {
+    margin-top: 10vmin;
     color: white;
     font-weight: bold;
     font-size: 1.4rem;
